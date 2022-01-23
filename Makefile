@@ -3,7 +3,7 @@ CFLAGS=-c -Wall -g -std=c99
 LDFLAGS=-lreadline
 SOURSES=main.c matrix.c list.c
 OBJECTS=$(SOURSES:.c=.o)
-EXECUTABLE=snake
+EXECUTABLE=console_snake
 
 all: $(SOURSES) $(EXECUTABLE)
 
